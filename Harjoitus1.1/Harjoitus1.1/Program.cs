@@ -10,7 +10,7 @@ namespace Harjoitus1._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello GitHub" );
+            Console.WriteLine("Hello GitHubbi" );
         }
     }
 }
