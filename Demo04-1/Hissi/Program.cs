@@ -10,12 +10,21 @@ namespace Hissi
     {
         static void Main(string[] args)
         {
-           
 
-            Console.WriteLine("Elevator floor?(1-5) 0 stops the elevator ");
-            int floor = Console.Read();
-            while (floor != 0) ;
+            Floors floor = new Floors();
+            int nro = 0;
+            do
+            {
 
+                Console.WriteLine("Elevator floor?(1-5) 0 stops the elevator ");
+                string line = Console.ReadLine();
+                nro = int.Parse(line);
+                floor.Floor = nro;
+                Console.WriteLine("Elevator is now at floor " + floor.Floor);
+
+            } while (nro != 0);
+                
+            
         }
     }
 }

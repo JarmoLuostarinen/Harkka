@@ -16,7 +16,6 @@ namespace Kotitehtävä5
 {
     class Program
     {
-        Elevator elevator = new Elevator
         
                 }
             }
