@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car aplication", "Demo04\Car aplication.csproj", "{F3F0D675-B472-4A13-ACA2-AE87E8BF4B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "..\Demo04\Opiskelija\Person.csproj", "{EBABB1E3-5BCC-4588-B0A4-97E52EBA3233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F0D675-B472-4A13-ACA2-AE87E8BF4B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F0D675-B472-4A13-ACA2-AE87E8BF4B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F0D675-B472-4A13-ACA2-AE87E8BF4B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F0D675-B472-4A13-ACA2-AE87E8BF4B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBABB1E3-5BCC-4588-B0A4-97E52EBA3233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBABB1E3-5BCC-4588-B0A4-97E52EBA3233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBABB1E3-5BCC-4588-B0A4-97E52EBA3233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBABB1E3-5BCC-4588-B0A4-97E52EBA3233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
