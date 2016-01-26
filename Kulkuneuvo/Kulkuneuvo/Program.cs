@@ -15,16 +15,19 @@ namespace Kulkuneuvo
             Tyre tyre2 = new Tyre { Name = "GoodYear", Type = "Summer", Size = "225R17" };
             Tyre tyre3 = new Tyre { Name = "YokoHama", Type = "Kitka", Size = "185R13" };
 
+            Engine engine1 = new Engine { Name = "Nissan", Type = "Bensiin", Size = "1.5L" };
 
 
-            Vehicle car = new Vehicle { Name = "Datsun", Engine = " Nissan", Model = "100A" };
 
-            car.AddTyre(tyre1);
-            car.AddTyre(tyre1);
-            car.AddTyre(tyre3);
-            car.AddTyre(tyre3);
+            Vehicle car1 = new Vehicle { Name = "Datsun", Model = "100A" };
 
-            Console.WriteLine(car.ToString());
+            car1.AddEngine(engine1);
+            car1.AddTyre(tyre1);
+            car1.AddTyre(tyre1);
+            car1.AddTyre(tyre3);
+            car1.AddTyre(tyre3);
+
+            Console.WriteLine(car1.ToString());
             Console.WriteLine("Press erter");
             Console.ReadLine();
 
