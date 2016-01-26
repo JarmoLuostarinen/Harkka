@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hissi
+namespace Draw
 {
-    class Elevators
+    abstract class DrawinObject
     {
-       
+        public string Name { get; set; }
+        public abstract void Draw();
     }
 }
