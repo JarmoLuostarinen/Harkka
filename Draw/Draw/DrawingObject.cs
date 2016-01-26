@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Draw
 {
-    abstract class DrawinObject
+    abstract class DrawingObject
     {
         public string Name { get; set; }
         public abstract void Draw();

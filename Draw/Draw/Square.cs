@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Draw
 {
-    class Square : DrawinObject
+    class Square : DrawingObject
     {
         public override void Draw()
         {
