@@ -27,7 +27,7 @@ namespace T2
         /// Adds a song to collection
         /// </summary>
         /// <param name="song">Added song</param>
-        public void AddSong(CD song)
+        public void AddSong(Song song)
         {
             songs.Add(song);
         }
