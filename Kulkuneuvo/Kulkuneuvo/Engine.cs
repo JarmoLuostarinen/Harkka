@@ -19,5 +19,7 @@ namespace Kulkuneuvo
 
             return "Name" + Name + " Type" + Type + "Size" + Size;
         }
+
+        
     }
 }
