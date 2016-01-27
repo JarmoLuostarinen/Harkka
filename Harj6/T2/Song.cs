@@ -8,13 +8,13 @@ namespace T2
 {
     class Song
     {
-        public string Album { get; set; }
+       
         public string SongName { get; set; }
-        public string Time { get; set; }
+        public string Lenght { get; set; }
 
         public override string ToString()
         {
-            return Firstname + " " + Lastname + " " + SosialSecurityNumber;
+            return SongName + " " + Lenght;
         }
     }
 }

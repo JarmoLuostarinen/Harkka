@@ -8,45 +8,47 @@ namespace T2
 {
     class CD
     {
+        public string Artist { get; set; }
+        public string Album { get; set; }
         /// <summary>
         /// CD collection stores song objects
         /// </summary>
-        public List<Song> cD;
+        public List<Song> songs;
 
         /// <summary>
         /// Default constructor initializes a collection
         /// </summary>
         public CD()
         {
-            cD = new List<CD>();
+           songs = new List<Song>();
         }
 
         /// <summary>
         /// Adds a song to collection
         /// </summary>
         /// <param name="song">Added song</param>
-        public void AddPerson(CD cD)
+        public void AddSong(CD song)
         {
-            cD.Add(cD);
+            songs.Add(song);
         }
         /// <summary>
         /// Returns a song to caller application
         /// </summary>
         /// <param name="index">song index in collection</param>
         /// <returns>Returned song object</returns>
-        public song GetSong(int index)
+        public Song GetSong(int index)
         {
-            if (index < song.Count) return cD.ElementAt(index);
+            if (index < songs.Count) return songs.ElementAt(index);
             else return null;
         }
 
-        public song FindPerson(string sosialSecurityNumber)
+        public Song FindSong(string Name)
         {
-            foreach (Person person in persons)
+            foreach (Song song in songs)
             {
-                if (sosialSecurityNumber.Equals(person.SosialSecurityNumber))
+                if (Name.Equals(song.SongName))
                 {
-                    return person;
+                    return song;
                 }
             }
             // person with sotu not found...
@@ -56,9 +58,9 @@ namespace T2
         public void PrintCollection()
         {
             foreach
-                  (Person person in persons)
+                  (Song songs in songs)
             {
-                Console.WriteLine(person.ToString());
+                Console.WriteLine(songs.ToString());
             }
         }
     }
