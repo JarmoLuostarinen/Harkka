@@ -111,6 +111,16 @@
     <None Include="Employees_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\employee01.png" />
+    <Content Include="Assets\Images\employee02.png" />
+    <Content Include="Assets\Images\employee03.png" />
+    <Content Include="Assets\Images\employee04.png" />
+    <Content Include="Assets\Images\employee05.png" />
+    <Content Include="Assets\Images\employee06.png" />
+    <Content Include="Assets\Images\employee07.png" />
+    <Content Include="Assets\Images\employee08.png" />
+    <Content Include="Assets\Images\employee09.png" />
+    <Content Include="Assets\Images\employee10.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
